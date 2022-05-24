@@ -1,0 +1,7 @@
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csprojAssemblyReference.cache
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb

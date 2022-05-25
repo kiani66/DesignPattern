@@ -48,6 +48,10 @@
     <Compile Include="Decoretor\DataSourceDecoretor.cs" />
     <Compile Include="Decoretor\EncriptionDecretor.cs" />
     <Compile Include="Decoretor\FileDataSource.cs" />
+    <Compile Include="ObServer\Celebritys.cs" />
+    <Compile Include="ObServer\follower.cs" />
+    <Compile Include="ObServer\Iobservers.cs" />
+    <Compile Include="ObServer\Isubjects.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -5,3 +5,10 @@ E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\De
 E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
 E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
 E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\src\DesignPattern\obj\Debug\DesignPattern.csprojAssemblyReference.cache
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\src\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\src\DesignPattern\obj\Debug\DesignPattern.exe
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\src\DesignPattern\obj\Debug\DesignPattern.pdb
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\src\DesignPattern\bin\Debug\DesignPattern.exe.config
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\src\DesignPattern\bin\Debug\DesignPattern.exe
+E:\person\Persoon\GitHub\DesignPatterns\DesignPattern\src\DesignPattern\bin\Debug\DesignPattern.pdb

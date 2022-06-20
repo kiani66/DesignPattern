@@ -13,8 +13,12 @@ namespace DesignPattern
             #region Decoretor DesignPattern
             Decoretor();
             #endregion
-            #region Decoretor Observer
+            #region  Observer DesignPattern
             Observer();
+            #endregion
+
+            #region  Strategy DesignPattern
+            Strategy();
             #endregion
 
             void Decoretor()
@@ -54,6 +58,24 @@ namespace DesignPattern
 
                 Console.ReadKey();
 
+            }
+            void Strategy()
+            {
+                DesignPattern.Strategy.ContextSort contextSort = new Strategy.ContextSort();
+                int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
+                contextSort.setnumbers(input);
+                contextSort.SetStrategy(new DesignPattern.Strategy.QuickSort());
+                contextSort.SortNumers();
+
+                contextSort.setnumbers(input);
+                contextSort.SetStrategy(new DesignPattern.Strategy.SelectionSort());
+                contextSort.SortNumers();
+
+                contextSort.setnumbers(input);
+                contextSort.SetStrategy(new DesignPattern.Strategy.BubbleSort());
+                contextSort.SortNumers();
+
+                Console.ReadKey();
             }
         }
         

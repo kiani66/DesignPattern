@@ -20,6 +20,9 @@ namespace DesignPattern
             #region  Strategy DesignPattern
             Strategy();
             #endregion
+            #region  Chain_Of_Responsibility DesignPattern
+            Chain_Of_Responsibility();
+            #endregion
 
             void Decoretor()
             {
@@ -61,6 +64,7 @@ namespace DesignPattern
             }
             void Strategy()
             {
+                Console.WriteLine("------------StrategyPattern--------");
                 DesignPattern.Strategy.ContextSort contextSort = new Strategy.ContextSort();
                 int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
                 contextSort.setnumbers(input);
@@ -75,6 +79,24 @@ namespace DesignPattern
                 contextSort.SetStrategy(new DesignPattern.Strategy.BubbleSort());
                 contextSort.SortNumers();
 
+                Console.ReadKey();
+            }
+            void Chain_Of_Responsibility()
+            {
+                Console.WriteLine("------------Chain_Of_Responsibility_Pattern--------");
+                DesignPattern.Chain_Of_Responsibility.Handler assistant = new DesignPattern.Chain_Of_Responsibility.assistant();
+                DesignPattern.Chain_Of_Responsibility.Handler manager = new DesignPattern.Chain_Of_Responsibility.manager();
+                DesignPattern.Chain_Of_Responsibility.Handler CEO = new DesignPattern.Chain_Of_Responsibility.CEO();
+                assistant.setsuccessor(manager);
+                manager.setsuccessor(CEO);
+
+                DesignPattern.Chain_Of_Responsibility.Cheque cheque1 = new Chain_Of_Responsibility.Cheque("123456" , 1500000);
+                DesignPattern.Chain_Of_Responsibility.Cheque cheque2 = new Chain_Of_Responsibility.Cheque("654321", 800000);
+                DesignPattern.Chain_Of_Responsibility.Cheque cheque3 = new Chain_Of_Responsibility.Cheque("987654", 3000000);
+
+                assistant.Sendcheckforsignature(cheque1);
+                assistant.Sendcheckforsignature(cheque2);
+                assistant.Sendcheckforsignature(cheque3);
                 Console.ReadKey();
             }
         }

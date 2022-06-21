@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chain_Of_Responsibility\assistant.cs" />
+    <Compile Include="Chain_Of_Responsibility\CEO.cs" />
+    <Compile Include="Chain_Of_Responsibility\Cheque.cs" />
+    <Compile Include="Chain_Of_Responsibility\Handler.cs" />
+    <Compile Include="Chain_Of_Responsibility\manager.cs" />
     <Compile Include="Decoretor\ComprationDecoredtor.cs" />
     <Compile Include="Decoretor\DataSource.cs" />
     <Compile Include="Decoretor\DataSourceDecoretor.cs" />
